@@ -28,7 +28,6 @@ export class LandingPage {
     }
   }
   language: 'pt' | 'en' = 'pt';
-
   applyLanguage(lang: 'pt' | 'en') {
     this.language = lang;
   }

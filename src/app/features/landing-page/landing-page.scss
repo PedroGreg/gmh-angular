@@ -1,0 +1,12 @@
+@mixin display-flex($justify: center, $align: center, $direction: row, $gap: 0){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    gap: $gap;
+}
+
+header{
+    @include display-flex($justify: space-between);
+    padding: 10px 40px;
+}

@@ -1,15 +1,15 @@
-
-    <header>
-        <img src="" alt="">
-        <nav>
-            <a href="" id="nav-solucoes">{{ translations[language].solucoes }}</a>
-            <a href="" id="nav-sobre">{{ translations[language].sobre }}</a>
-            <a href="" id="nav-suporte">{{ translations[language].suporte }}</a>
-            <a href="" id="nav-planos">{{ translations[language].planos }}</a>
-            <a href="" id="nav-contato">{{ translations[language].contato }}</a>
-            <a href="" id="nav-cadastrese">{{ translations[language].cadastrese }}</a>
-        </nav>
+<header>
+    <img ngSrc="assets/GMHSupport.png" alt="logo GMHSupport" width="185" height="28" priority>
+    <nav>
+        <a href="" id="nav-solucoes">{{ translations[language].solucoes }}</a>
+        <a href="" id="nav-sobre">{{ translations[language].sobre }}</a>
+        <a href="" id="nav-suporte">{{ translations[language].suporte }}</a>
+        <a href="" id="nav-planos">{{ translations[language].planos }}</a>
+        <a href="" id="nav-contato">{{ translations[language].contato }}</a>
+        <a href="" id="nav-cadastrese">{{ translations[language].cadastrese }}</a>
+    </nav>
+    <div class="language-buttons">
         <button (click)="applyLanguage('en')" id="btn-en">EN</button>
         <button (click)="applyLanguage('pt')" id="btn-pt">PT</button>
-    </header>
-    
+    </div>
+</header>
